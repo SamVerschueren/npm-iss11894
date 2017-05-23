@@ -1,0 +1,30 @@
+{
+  "name": "npm-iss11894",
+  "version": "0.0.0",
+  "description": "Reproducing issue 11894 in the npm issue tracker",
+  "license": "MIT",
+  "repository": "SamVerschueren/npm-iss11894",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "echo \"Files after installing\" && ls",
+    "preuninstall": "echo \"Files before uninstalling\" && ls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "npm",
+    "iss11894",
+    "reproducing"
+  ],
+  "dependencies": {
+    "noop3": "^999.999.999"
+  }
+}
