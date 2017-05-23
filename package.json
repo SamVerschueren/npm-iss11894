@@ -1,6 +1,6 @@
 {
   "name": "npm-iss11894",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reproducing issue 11894 in the npm issue tracker",
   "license": "MIT",
   "repository": "SamVerschueren/npm-iss11894",
